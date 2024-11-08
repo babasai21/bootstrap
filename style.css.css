@@ -1,0 +1,123 @@
+* {
+    font-family: "Jost", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+    height: 50px;
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    margin-right: 25px;
+}
+
+.navbar-brand:hover {
+    color: rgb(215, 208, 221);
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(216, 231, 226);
+}
+
+.speaker-heading {
+    margin: 20px 0;
+    color: rgb(74, 194, 156);
+    font-size: 2.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.heading {
+    margin: 20px 0;
+    color: rgb(74, 194, 156);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.brides {
+    align-items: center;
+    position: relative;
+}
+
+.brides img {
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    margin: 10px;
+}
+
+.card {
+    transition: all 0.6s ease;
+    box-shadow: 0 0 10px rgb(118, 113, 113);
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+/*.card-next{
+    height: 400px !important;
+} */
+
+.card-body {
+    text-align: center;
+    background-color: rgb(176, 237, 217);
+}
+
+.het {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: 10;
+    color: white;
+}
+
+.head {
+    max-width: 400px;
+}
+
+.bestgift {
+    align-items: center;
+    position: relative;
+}
+
+.bestgift img {
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    margin: 10px;
+    font-size: 600px;
+}
+
+.container-join {
+    text-align: center;
+    position: relative;
+    background-color: rgb(116, 141, 187);
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+.img {
+    display: inline-block;
+    width: 100%;
+    height: 80vh;
+    object-fit:fill;
+    /* width: 100%; */
+    /* height: 30% !important; */
+}
+
+/* #forever{
+    height: 100vh;
+} */
